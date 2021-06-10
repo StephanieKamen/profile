@@ -1,0 +1,130 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url("https://kit.fontawesome.com/a57c5a5351.js");
+body {
+  font-family:  'Open Sans';
+  background-color: #03256c;
+}
+
+h1 {
+  font-family:  'Poppins';
+  color: #03256c;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+h2, h3 {
+  font-family:  'Poppins';
+  color: #03256c;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+p {
+ line-height: 25pt;
+ font-size:  16px;
+ margin: 8px 24px;
+}
+
+
+a {
+font-weight: bold;
+text-decoration: none;
+color: #bbbfca;
+}
+
+a:hover {
+  color: #03256c;
+}
+
+.container {
+  width:  700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-section {
+  background-color: #f4f4f2;
+  padding:  20px;
+  margin: 24px auto;
+  text-align: center;
+}
+
+.profile-image {
+  width: 200px;
+  border-radius: 50%;
+  opacity:  0.5;
+}
+
+.profile-image:hover {
+  opacity:  1.0;
+  box-shadow: 7px 7px 7px lightgrey;
+  background-image: src(images/IMG_0195.jpeg);
+}
+
+
+.btn-grey {
+  background-color:  #00917c;
+  color:  white;
+  padding:  8px 24px;
+  border-radius:  5px;
+  margin: 8px 24px;
+
+}
+
+.btn-grey:hover{
+  background-color: lightgrey;
+  color:  #03256c;
+  padding:  8px 24px;
+  border-radius:  5px;
+  margin: 8px 24px;
+}
+
+.list-inline-dev{
+  padding:  0;
+  margin: 8px 24px;
+}
+
+.list-inline-dev li {
+  display:  inline-block;
+  font-weight:  bold;
+}
+
+.list-inline{
+  list-style: none;
+  padding:  0;
+}
+
+.list-inline li {
+  display:  inline-block;
+}
+
+.social-icon {
+  font-size: 35px;
+  color: lightgrey;
+  margin: 8px 24px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+
