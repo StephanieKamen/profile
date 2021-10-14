@@ -85,7 +85,6 @@ a:hover {
   background-image: src(images/IMG_0195.jpeg);
 }
 
-
 .btn-grey {
   background-color:  #00917c;
   color:  white;
@@ -102,14 +101,15 @@ a:hover {
   margin: 8px 24px;
 }
 
-.list-inline-dev{
-  line-height: 25pt;
+.list-inline-dev {
+  padding: 0;
   margin: 8px 24px;
 }
 
 .list-inline-dev li {
   display:  inline-block;
   line-height: 250pt;
+
 }
 
 .list-inline {
