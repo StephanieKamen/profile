@@ -21,7 +21,8 @@ h2, h3 {
 
 p {
  line-height: 25pt;
- font-size:  16px;
+ color: #03256c;
+ font-size:  20px;
  margin: 8px 24px;
 }
 
@@ -67,6 +68,11 @@ a:hover {
   text-align: center;
 }
 
+.card-section p {
+  color: #03256c;
+  font-size: 20px;
+}
+
 .profile-image {
   width: 200px;
   border-radius: 50%;
@@ -85,8 +91,7 @@ a:hover {
   color:  white;
   padding:  8px 24px;
   border-radius:  5px;
-  margin: 8px 24px;
-
+  margin: 8px 224px;
 }
 
 .btn-grey:hover{
@@ -98,16 +103,16 @@ a:hover {
 }
 
 .list-inline-dev{
-  padding:  0;
+  line-height: 25pt;
   margin: 8px 24px;
 }
 
 .list-inline-dev li {
   display:  inline-block;
-  font-weight:  bold;
+  line-height: 250pt;
 }
 
-.list-inline{
+.list-inline {
   list-style: none;
   padding:  0;
 }
