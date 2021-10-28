@@ -8,5 +8,5 @@ Created profile cards with an image, headers, text, lists and social links.
 ## Adding CSS rules
 Designed my profile content by adding hover effects, fonts, colors and opacity, among others. 
 
-## Responsoive profile 
+## Making the Profile Page responsive 
 Made the profile responsive by adding with media queries.
